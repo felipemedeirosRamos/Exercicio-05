@@ -1,0 +1,6 @@
+let valor = Number(prompt("Digite valor do boleto"));
+let juros = Number(prompt("Digite o percentual de juros"));
+let dias = Number(prompt("Digite os dias de atraso"));
+let prestacao = valor+(valor*(juros/100)) * dias;
+document.write(`Valor do boleto ${valor}, percentual de juros ${juros}, dias de atraso ${dias}`,);
+document.write(`Valor da prestação ${prestacao}`);  

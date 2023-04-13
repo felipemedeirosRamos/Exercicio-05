@@ -1,0 +1,9 @@
+let v1 = prompt("Digite o primeiro número");
+let v2 = prompt("Digite o segundo número");
+v2 = Number(v2);
+let v3 = prompt("Digite o terceiro valor");
+let v4 = prompt("Digite o quarto valor");
+v4 = Number(v4);
+let m = v1*v3;
+let s = v2+v4;
+document.write(`O resultado da multiplicação é: ${m} e a soma é: ${s}`);

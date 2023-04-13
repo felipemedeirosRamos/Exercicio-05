@@ -1,0 +1,3 @@
+let raio = Number(prompt("Digite o raio"));
+let area = Math.round(3.14 * raio);
+document.write(`Área do círculo ${area}`);

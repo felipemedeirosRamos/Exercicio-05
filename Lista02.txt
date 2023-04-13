@@ -1,0 +1,5 @@
+let cot_dolar = prompt("Digite quanto está valendo o dólar");
+let quant_real = prompt("Digite quanto você tem em reais");
+let valor_dolar =quant_real/cot_dolar;
+document.write(`Quantidade de dólares:${valor_dolar}`);
+

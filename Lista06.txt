@@ -1,0 +1,5 @@
+let anos = Number(prompt("Digite sua idade"));
+let meses = Number(prompt("Digite quantos meses de vida você possui:"));
+let dias = Number(prompt("Digite quanto dias de vida você possui:"));
+let idade_dias = anos*365+meses*30+dias;
+document.write(`Total de idade em dias ${idade_dias}`);
